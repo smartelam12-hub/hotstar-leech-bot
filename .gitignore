@@ -1,0 +1,54 @@
+# Environment & Secrets
+.env
+*.env
+service_account.json
+token.json
+credentials.json
+*.session
+*.session-journal
+*.session-journal*
+*.cookies*.txt*
+hotstar_cookies.txt
+hotstar.com_cookies.txt.txt
+
+# Downloads & Temp files
+downloads/
+./downloads/
+*.tmp
+*.part
+*.ytdl
+*.log
+
+# Heavy local binaries / source
+ffmpeg-9.0.1/
+ffmpeg*/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
